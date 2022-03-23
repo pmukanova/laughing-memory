@@ -21,7 +21,7 @@ print(type(districts))
 print(type(districts.geometry))
 
 # Inspect the first rows of the geometry
-print(districts.head())
+print(districts.geometry.head())
 
 # Inspect the area of the districts
-print(districts.geometry.head())
+print(districts.geometry.area)
